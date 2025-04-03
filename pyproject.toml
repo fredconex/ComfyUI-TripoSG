@@ -1,0 +1,15 @@
+[project]
+name = "triposg"
+description = "Created by Alfredo Fernandes inspired by Hunyuan3D nodes by Kijai. This extension adds TripoSG 3D mesh generation capabilities to ComfyUI, allowing you to generate 3D meshes from a single image using the TripoSG model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0.0", "trimesh", "diffusers>=0.31.0", "accelerate", "huggingface_hub", "opencv-python", "transformers", "scikit-image", "numpy", "tqdm", "peft"]
+
+[project.urls]
+Repository = "https://github.com/fredconex/ComfyUI-TripoSG"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TripoSG"
+Icon = ""
